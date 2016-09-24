@@ -1,6 +1,7 @@
 function noos=directing(m,Nx,Ny,x,y,dx)
 
 lm=length(x);
+
 %fist we need to compute the latic that works with the grid point
     lsy=[dx:dx:dx*Ny]-dx*Ny/2-dx/2;
     lsx=[dx:dx:dx*Nx]-dx*Nx/2-dx/2;

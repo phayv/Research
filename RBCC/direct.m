@@ -40,5 +40,4 @@ fx=1/(nk-1);
     
     noos(:,m+1)=noos(:,1);
     
-
 end

@@ -46,12 +46,10 @@ ktheta=initialdata5(3);		       %the initial tilted angle of the membrane
 
 pressure=initialdata6(1);          % pressure 
 
-
 shear=velocity;              
 ktime=0;
 m=ngrid;
 Nv=Nvesicle;                
-
 
 tcomp=dt*ktime;
 nstep=round(T/dt);                %time steps

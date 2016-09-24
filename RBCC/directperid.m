@@ -7,7 +7,6 @@ noos=zeros(6,lm);
     lsy=[dx:dx:dx*Ny]-dx*Ny/2-dx/2;
     lsx=[dx:dx:dx*Nx]-dx*Nx/2-dx/2;
     
-
     for i=1:lm
         if x(i)<lsx(Nx-2)
             for jj=1:Nx-1
@@ -42,7 +41,6 @@ noos=zeros(6,lm);
             end
         end
     end
-
 
         noos(1,:)=nx;
         noos(2,:)=ny;
